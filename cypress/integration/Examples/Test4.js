@@ -37,9 +37,16 @@ describe('Handle Popups, Alerts, Child Windows', function()
         
         //Come back to original page
         cy.go('back')
+    })
 
+    it('Handling tables', function()
+    {
+        cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
+        cy.get('#opentab').invoke('removeAttr','target').click()     //Remove target attribute
+        cy.url().should('include','rahulshettyacademy')
         
-       
+        //Come back to original page
+        cy.go('back')
     })
     
 })
