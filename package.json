@@ -13,7 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^9.4.1",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1"
   },
   "dependencies": {
     "git": "^0.1.5"
