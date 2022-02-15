@@ -14,7 +14,6 @@ describe('Handle Tables un Cypress', function()
                 {
                     const priceText=price.text()
                     expect(priceText).to.equal('25')
-
                 })
             }
         })

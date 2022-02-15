@@ -1,4 +1,6 @@
 {
     "testFiles": ["**/*.feature","**/*.js"],
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 8000,
+    "defaultCommandTimeout": 6000
 }

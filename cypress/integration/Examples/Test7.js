@@ -1,4 +1,6 @@
 /// <reference types="Cypress" />
+/// <reference types="cypress-iframe" />
+
 
 describe('Handling Child windows using Cypress', function() 
 {
